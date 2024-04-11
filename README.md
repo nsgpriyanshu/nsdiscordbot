@@ -55,12 +55,9 @@ Edit the `config.json` file (or the appropriate configuration file) to set your 
 
 ## Version
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 ## Contact
 
-You can join our discord server for support 
-
-[![Join Discord Server](https://img.shields.io/discord/855781247480496130?label=discord&logo=discord)](https://discord.com/invite/J5aZUUnwCh)
-
+You can join our discord server for support [Discord Server](https://discord.com/invite/J5aZUUnwCh)
 
