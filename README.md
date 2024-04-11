@@ -1,7 +1,7 @@
 # nsdiscordbot
 A super duper discord bot template.
 
-# My Discord Bot Template
+## My Discord Bot Template
 
 A simple Discord bot template for creating Discord bots easily.
 
