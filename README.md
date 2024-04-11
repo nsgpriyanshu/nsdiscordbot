@@ -16,7 +16,7 @@ A simple Discord bot template for creating Discord bots easily.
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/discord-bot-template.git
+    git clone https://github.com/nsgpriyanshu/nsdiscordbot.git
     ```
 
 2. Navigate to the project directory:
@@ -42,7 +42,7 @@ A simple Discord bot template for creating Discord bots easily.
     For Node.js (if your bot is written in JavaScript/TypeScript):
 
     ```bash
-    node index.js
+    node src/index.js
     ```
     
 ## Configuration
