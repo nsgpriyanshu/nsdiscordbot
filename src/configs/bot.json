@@ -1,0 +1,24 @@
+{
+    "client": {
+        "client_ID": "***",
+        "name": "***"
+    },
+    "handler": {
+        "guild_ID": "***"
+    },
+    "global": {
+        "prefix": "!"
+    },
+    "channel": {
+        "error": "***",
+        "serverLog": "***",
+        "bugReport": "***",
+        "suggestion": "***",
+        "welcomeLog": "***"
+    },
+    "devlopers": {
+        "owner": [
+            "***"
+        ]
+    }
+}
