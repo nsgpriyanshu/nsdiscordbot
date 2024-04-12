@@ -55,7 +55,7 @@ Edit the `config.json` file (or the appropriate configuration file) to set your 
 
 ## Version
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 
 ## Contact
 
