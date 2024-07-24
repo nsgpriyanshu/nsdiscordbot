@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Production
+.env
+
+# Log files
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
