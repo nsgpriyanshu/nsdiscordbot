@@ -1,6 +1,6 @@
 {
   "name": "nsdiscordbot",
-  "version": "1.2.0-rc1",
+  "version": "1.2.0",
   "description": "A discord app (bot) crafted with javascript",
   "main": "src/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "author": "nsgpriyanshu",
   "license": "ISC",
   "dependencies": {
+    "@favware/cliff-jumper": "^4.1.0",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
