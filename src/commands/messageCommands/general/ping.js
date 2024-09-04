@@ -1,5 +1,5 @@
-const { MessageEmbed } = require('discord.js');
-const { COLORS, EMOJIS } = require('../../constants/botConst');
+const { MessageEmbed } = require('discord.js')
+const { COLORS, EMOJIS } = require('../../constants/botConst')
 
 module.exports = {
   name: 'ping',
@@ -10,8 +10,8 @@ module.exports = {
       .setColor(COLORS.green)
       .setTitle('Pong!')
       .setDescription(`${EMOJIS.success} The bot is online and responding.`)
-      .setTimestamp();
+      .setTimestamp()
 
-    await message.reply({ embeds: [pongEmbed] });
+    await message.reply({ embeds: [pongEmbed] })
   },
-};
+}

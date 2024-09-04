@@ -34,11 +34,13 @@ This Discord bot is designed to interact with users on Discord servers by respon
 ## Installation
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/nsgpriyanshu/nsdiscordbot.git
    ```
 
 2. **Navigate to the Project Directory**:
+
    ```bash
    cd your-discord-bot-repo
    ```
@@ -51,6 +53,7 @@ This Discord bot is designed to interact with users on Discord servers by respon
 ## Configuration
 
 1. **Create a `.env` File** in the root directory of the project and add the following environment variables:
+
    ```env
    BOT_TOKEN=your-discord-bot-token
    BOT_ID=your-discord-bot-id
@@ -65,7 +68,7 @@ This Discord bot is designed to interact with users on Discord servers by respon
      BOT_ID: process.env.BOT_ID,
      ERROR_CHANNEL: process.env.ERROR_CHANNEL,
      DEVELOPER_IDS: process.env.DEVELOPER_IDS.split(','),
-   };
+   }
    ```
 
 ## Running the Bot
@@ -83,30 +86,28 @@ This Discord bot is designed to interact with users on Discord servers by respon
 ### Example Command File (`ping.js`)
 
 ```js
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder } = require('discord.js')
 
 module.exports = {
-  data: new SlashCommandBuilder()
-    .setName('ping')
-    .setDescription('Replies with Pong!'),
+  data: new SlashCommandBuilder().setName('ping').setDescription('Replies with Pong!'),
   async execute(interaction) {
-    await interaction.reply('Pong!');
+    await interaction.reply('Pong!')
   },
-};
+}
 ```
 
 ### Example Event File (`messageCreate.js`)
 
 ```js
-const { EmbedBuilder } = require('discord.js');
-const { COLORS, EMOJIS } = require('../constants/botConst');
+const { EmbedBuilder } = require('discord.js')
+const { COLORS, EMOJIS } = require('../constants/botConst')
 
 module.exports = {
   name: 'messageCreate',
   execute(message) {
     // Event logic for message creation
   },
-};
+}
 ```
 
 ## Contributing
